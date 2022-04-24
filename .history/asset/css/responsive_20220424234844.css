@@ -1,0 +1,50 @@
+/* PC */
+
+
+/* Tren 1024px thi se chay duoc */
+
+@media (min-width: 1024px) {}
+
+
+/* Tablet */
+
+
+/* Tren 740 va duoi 1023px thi tablet se chay duoc */
+
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+
+/* 
+    Mobile    
+ */
+
+
+/* Duoi 740px thi se chay duoc */
+
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+    }
+}

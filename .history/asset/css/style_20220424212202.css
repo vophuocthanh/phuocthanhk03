@@ -94,13 +94,14 @@ html {
 #main {}
 
 #header {
+    height: 46px;
+    background-color: #000;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 46px;
-    background-color: #000;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -161,17 +162,11 @@ html {
     font-size: 14px;
 }
 
-#header .mobile-menu-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: none;
-}
-
 #header.mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
+    /* cursor: pointer; */
 }
 
 #header .search-btn:hover {
@@ -179,11 +174,11 @@ html {
     background-color: #f44336;
 }
 
-#header .mobile-menu-btn:hover {
+#header.mobile-menu-btn:hover {
     background-color: #ccc;
 }
 
-#header .mobile-menu-btn:hover .menu-icon {
+#header.mobile-menu-btn:hover .menu-icon {
     color: #000;
 }
 
@@ -198,7 +193,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url("../img/slider/slider1.jpg") top center / cover no-repeat;
+    background: url("../img/slider/slider2.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -255,7 +250,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 32px;
+    margin-top: 48px;
 }
 
 #content .member-name {
@@ -311,7 +306,7 @@ html {
 /* Places */
 
 .place-list {
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .place-img {

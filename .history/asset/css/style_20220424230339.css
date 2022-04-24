@@ -101,6 +101,7 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -255,7 +256,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 32px;
+    margin-top: 48px;
 }
 
 #content .member-name {
@@ -311,7 +312,7 @@ html {
 /* Places */
 
 .place-list {
-    margin-top: 16px;
+    margin-top: 32px;
 }
 
 .place-img {
