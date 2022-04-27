@@ -1,10 +1,10 @@
                                                                                                 /* PC */
                                                                                             /* Tren 1024px thi se chay duoc */
                                                                                             
-                                                                                            @media (min-width: 64em) {}
+                                                                                            @media (min-width: 1024px) {}
                                                                                             /* Tablet && Mobile */
                                                                                             
-                                                                                            @media (max-width: 63.9375em) {
+                                                                                            @media (max-width: 1023px) {
                                                                                                 .btn {
                                                                                                     padding: 15px 16px;
                                                                                                 }
@@ -33,12 +33,12 @@
                                                                                                 }
                                                                                                 /* Tablet */
                                                                                                 /* Tren 740 va duoi 1023px thi tablet se chay duoc */
-                                                                                                @media (min-width: 46.25em) and (max-width: 63.9375em) {}
+                                                                                                @media (min-width: 740px) and (max-width: 1023px) {}
                                                                                                 /* 
     Mobile    
  */
                                                                                                 /* Duoi 740px thi se chay duoc */
-                                                                                                @media (max-width: 46.1875em) {
+                                                                                                @media (max-width: 740px) {
                                                                                                     .s-full-width,
                                                                                                     .s-col-full {
                                                                                                         width: 100% !important;

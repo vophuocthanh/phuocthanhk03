@@ -50,8 +50,6 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
-    appearance: none;
-    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -224,7 +222,6 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
-    text-shadow: 0 0 1px #000;
 }
 
 #content {}
@@ -379,11 +376,7 @@ html {
 
 .contact-info a {
     color: #101aef;
-    opacity: 0.8;
-}
-
-.contact-info a:hover {
-    opacity: 1;
+    opacity: 0.6;
 }
 
 .contact-info i[class*="ti-"] {
